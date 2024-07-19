@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 16px; /* Base font size */
+    background-color: white; /* Main background color */
+    color: #333333; /* Text color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: white; /* White background */
+    color: #008080; /* Teal green  Green text color */
+    border-bottom: 1px solid #DDD; /* Bottom border for separation */
+    padding: 30px;
+}
+
+.navbar-brand {
+    margin: auto; /* Centers the logo on the right */
+    
+}
+
+.navbar-brand p {
+    color: black;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 1.0em;
+}
+
+.navbar-nav {
+    margin: auto; /* Centers the nav items */
+}
+
+.navbar-nav .nav-link {
+    color: #008080; /* Teal green text color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #555; /* Darker color on hover and focus */
+    outline: none; /* Remove default outline */
+    text-decoration: underline; /* Add underline on hover and focus for better accessibility */
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff6347; /* Red color for active link */
+}
+
+.navbar-toggler {
+    color: #008080; /* Teal green text color */
+}
+
+.btn-outline-success {
+    background-color: white;
+    border-color: #007474; /* Example darker border color on hover */
+    color: #007474; /* Example text color on hover */
+    font-family: 'Fahkwang', sans-serif; 
+}
+
+.btn-outline-success:hover {
+    /* Styles for hover state */
+    background-color: #008080; /* Example background color */
+    color: #fff; /* Example text color */
+    border-color: #008080; /* Example border color */
+}
+/* Navbar ends */
+
+
+
+/*About us section*/
+
+.about-us-content {
+    padding: 20px;
+}
+
+.about-us-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Impact Stories Section */
+.impact-stories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.impact-story {
+    flex: 1 0 300px;
+    margin: 10px;
+}
+
+.impact-story img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Team Members Section */
+.team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.team-member img {
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Footer styles */
+.footer {
+    background-color:#008080; /* Teal green */
+    ; /* Green footer background */
+    color: white; /* White footer text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .connect-heading {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    font-family: 'Fahkwang', sans-serif
+}
+
+.footer p {
+    color: white; /* White text for address */
+}
+
+.footer button {
+    color:  #008080; /* Teal green */
+    background-color: #FFFFFF; /* White button text color */
+    border-color: white; /* white border color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.footer button:hover,
+.footer button:focus {
+    background-color: #008080; /* Teal green background on hover and focus */
+    color: #FFFFFF;  /* white color on hover and focus */
+    outline: none; /* Remove default outline */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white; /* White color for social icons */
+    font-size: 1.5em; /* Adjust icon size */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.social-icons a:hover,
+.social-icons a:focus {
+    color: skyblue; /* Forest green on hover and focus */
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .statistics h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .statistics p {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
+}

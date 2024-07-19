@@ -1,0 +1,67 @@
+# Act for Change Website - Interactive Features
+
+This README provides an overview of the interactive features implemented on the Act for Change website.
+
+## 1. Donate Button
+
+Location: Footer of all site pages
+
+Functionality:
+- Clicking the "Donate" button opens a modal dialog box
+- The dialog requests the user's information:
+  - Name
+  - Email address
+  - Donation amount
+- Upon form submission:
+  - A success message is displayed
+  - The user's input is acknowledged (e.g., "Thank you for your donation, [Name]!")
+  - The modal closes
+  - The form resets for future use
+
+## 2. Search Bar
+
+Location: Navigation bar on all pages
+
+Functionality:
+- Users can enter search terms in the search bar
+- Upon submitting a search (pressing Enter or clicking the search button):
+  - An alert is displayed showing what the user is searching for
+  - The search term is logged to the console
+  - The search input is cleared after submission
+
+Note: As of now, this is a front-end demonstration. 
+
+## 3. Font Size Adjustment
+
+Location: Navigation bar on all pages
+
+Functionality:
+- Two buttons are provided: "A+" to increase font size and "A-" to decrease font size
+- Clicking these buttons adjusts the font size of the page content accordingly
+- This feature enhances accessibility for users who may need larger or smaller text
+
+## 4. Contact Form
+
+Location: Contact page
+
+Functionality:
+- Users can fill out a form with their contact information and message
+- The form includes fields for name, email, and message
+- Upon submission:
+  - A success message is displayed to the user
+  - The form resets for future use
+
+## 5. Opportunity Application
+
+Location: Get Involved page
+
+Functionality:
+- Users can select an opportunity they're interested in
+- Clicking the "Apply" button for an opportunity opens a modal with an application form
+- The form collects the user's information (name, email, phone number)
+- Upon submission:
+  - A success message is displayed, acknowledging the user's application
+  - The modal closes
+  - The form resets for future applications
+
+---

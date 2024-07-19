@@ -1,0 +1,318 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 16px; /* Base font size */
+    background-color: white; /* Main background color */
+    color: #333333; /* Text color */
+}
+
+/* Navbar */
+.navbar {
+    background-color: white; /* White background */
+    color: #008080; /* Teal green  Green text color */
+    border-bottom: 1px solid #DDD; /* Bottom border for separation */
+    padding: 30px;
+}
+
+.navbar-brand {
+    margin: auto; /* Centers the logo on the right */
+    
+}
+
+.navbar-brand p {
+    color: black;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 1.0em;
+}
+
+.navbar-nav {
+    margin: auto; /* Centers the nav items */
+}
+
+.navbar-nav .nav-link {
+    color: #008080; /* Teal green text color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #555; /* Darker color on hover and focus */
+    outline: none; /* Remove default outline */
+    text-decoration: underline; /* Add underline on hover and focus for better accessibility */
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff6347; /* Red color for active link */
+}
+
+.navbar-toggler {
+    color: #008080; /* Teal green text color */
+}
+
+.btn-outline-success {
+    background-color: white;
+    border-color: #008080; /* Example darker border color on hover */
+    color: #008080; /* Example text color on hover */
+    font-family: 'Fahkwang', sans-serif; 
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+    background-color: #008080; /* Example background color */
+    color: white; /* Example text color */
+    border-color: #008080; /* Example border color */
+    transition: color 0.3s
+}
+
+
+/* Navbar ends */
+
+
+/* Ensure the navbar and buttons are styled appropriately */
+.navbar .font-size-adjuster {
+    display: flex;
+    gap: 5px;
+    margin-left: 15px;
+}
+
+.navbar .btn-custom {
+    background-color: #C0D9C9; /* Sage green */
+    color: white;
+    border: 1px solid #C0D9C9; /* Sage green */
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.navbar .btn-custom:hover {
+    background-color: #A0C4A6; /* Slightly darker sage green */
+    color: white;
+    border-color: #A0C4A6; /* Slightly darker sage green */
+}
+
+.navbar .btn-custom:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(192, 217, 201, 0.6); /* Sage green shadow */
+}
+
+
+
+/* Hero section */
+.hero {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(75, 80, 80, 0.3); /* Adjust the transparency here */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #fff;
+  }
+  
+  .hero-text {
+    font-size: 3em; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    font-family: 'Fahkwang', sans-serif; 
+    font-weight: 500;
+    font-stretch:extra-expanded
+}
+  
+  .get-involved-btn {
+    font-size: 1.2em; /* Adjust the font size of the button */
+    padding: 10px 20px;
+    background-color: transparent; /* Customize the button color */
+    border-color: white;
+    color: white;
+    font-family: 'Fahkwang', sans-serif;
+  }
+
+  .get-involved-btn:hover {
+    background-color: white;
+    color: #008080;
+    border: none;
+}
+
+ .get-involved-btn:active {
+    background-color: white;
+    color: #008080;
+    border: none;
+
+}
+
+/* Our Story */
+.story-heading {
+    font-size: 3.5rem; /* Increase the font size as needed */
+    margin-bottom: 30px; /* Optional: add some space below the heading */
+}
+
+.story-content p {
+    margin-bottom: 20px;
+    max-width: 400px; /* Adjust the max-width as needed */
+    text-align: justify; /* Align the text to justify */
+}
+
+.story-content {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    background-color: none;
+}
+
+.btn-outline-primary {
+    background-color: white;
+    border-color: #008080;
+    color: #008080;
+    font-family: 'Fahkwang', sans-serif;
+    width: max-content;
+}
+
+.btn-outline-primary:hover {
+    background-color: #008080;
+    color: #fff;
+    border-color: #008080;
+}
+
+.custom-img-fluid {
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/*End of our story*/
+
+/* Opportunities section */
+.opportunities {
+    padding: 20px 0;
+}
+
+.opportunity {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.opportunity img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.opportunity a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.opportunity a:hover {
+    color: #008080;
+}
+
+.opportunity p {
+    text-align: justify;
+}
+
+.opportunity-title {
+    font-size: 2.0rem;
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+
+/* Footer styles */
+.footer {
+    background-color:#008080; /* Teal green */
+    ; /* Green footer background */
+    color: white; /* White footer text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .connect-heading {
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    font-family: 'Fahkwang', sans-serif
+}
+
+.footer p {
+    color: white; /* White text for address */
+}
+
+.footer button {
+    color:  #008080; /* Teal green */
+    background-color: #FFFFFF; /* White button text color */
+    border-color: white; /* white border color */
+    padding: 10px 20px; /* Padding for button */
+    border-radius: 20px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.footer button:hover,
+.footer button:focus {
+    background-color: #008080; /* Teal green background on hover and focus */
+    color: #FFFFFF;  /* white color on hover and focus */
+    outline: none; /* Remove default outline */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white; /* White color for social icons */
+    font-size: 1.5em; /* Adjust icon size */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.social-icons a:hover,
+.social-icons a:focus {
+    color: skyblue; /* Forest green on hover and focus */
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .statistics h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+
+    .statistics p {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
+}
